@@ -1,0 +1,27 @@
+name: requests_inspector
+description: A Flutter package for logging REST-APIs and GraphQL requests with modern UI, JSON Tree View, Quick Clear, cURL Sharing and Token Extraction.
+version: 5.1.0
+homepage: https://github.com/tuan1996v2/requests_inspector
+repository: https://github.com/tuan1996v2/requests_inspector
+
+environment:
+  sdk: ">=2.17.0 <4.0.0"
+  flutter: ">=1.20.0"
+
+dependencies:
+  collection: ">=1.15.0 <2.0.0"
+  connectivity_plus: ">=5.0.0 <7.0.0"
+  dio: ">=5.0.0 <6.0.0"
+  flutter:
+    sdk: flutter
+  gql: ">=0.14.0 <2.0.0"
+  graphql: ">=5.1.0 <6.0.0"
+  graphql_flutter: ">=5.1.0 <6.0.0"
+  provider: ">=6.0.0 <7.0.0"
+  sensors_plus: ">=4.0.0 <7.0.0"
+  share_plus: ">=7.0.0 <12.0.0"
+
+dev_dependencies:
+  flutter_lints: ^5.0.0
+  flutter_test:
+    sdk: flutter
